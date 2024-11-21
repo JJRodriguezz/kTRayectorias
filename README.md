@@ -1,13 +1,29 @@
-GRAFOS POR ALEXANDER NARVÁEZ
+# Proyecto de Grafos y Trayectorias
 
+## Descripción
+Este proyecto es una implementación de un sistema para generar y analizar grafos mediante matrices de adyacencia y trayectorias en un grafo dirigido. La aplicación permite al usuario ingresar un grafo aleatorio o manualmente, calcular trayectorias específicas a través de potencias de la matriz de adyacencia (A^2 y A^3), y visualizar estos resultados en una interfaz gráfica.
 
-El presente es un proyecto que realicé como código base para mis estudiantes de Estructuras de datos 2.
-Consite en una interfaz gráfica desarrolalda con PyQt, que es una librería de C++ para desarrollar UIs en Python.
-El programa permite generar matrices de pesos y a partir de ellas contruir un grafo.
-La distribución de los vértices se hace aleatoria, pero el programa está disñedo para que se puedan arrastrar los nodos junto con us aristas.
-También se puede cliquear sobre un arco el cual aparecerá resaltado en color rojo junto con los nodos que van conectados por esa arista.
-![image](https://github.com/user-attachments/assets/c4b02bcf-e322-4fde-9e2d-9c460233369c)
+## Integrantes
+- Juan José Rodríguez
+- Isabella Idárraga
 
-La idea es que puedan usar este código para que lo personalicen de modo que pueda extender las capacidades del mismo, por ejemplo añadir la funcionalidad de que el programa encuentre las k trayectorias aplicando el algoritmo de Dijkstra o del Bellman - Ford.
+## Versión del Proyecto
+- **Versión 1.0**
 
-P.D., importantísimo: recuerda darle clic en la estrellita antes de descargar( o te Hackeo el feisbuk ;) )
+## Requisitos
+- **Python 3.12** (o versión superior)
+  
+## Herramientas Utilizadas
+- **Python 3**: Lenguaje de programación principal utilizado para el desarrollo del proyecto.
+- **PyQt5**: Biblioteca utilizada para la creación de la interfaz gráfica de usuario.
+- **Git**: Sistema de control de versiones utilizado para gestionar el código fuente.
+- **GitHub**: Plataforma para alojar el repositorio y gestionar el código.
+- **NumPy**: Biblioteca para el cálculo eficiente de matrices.
+  
+## Instalación
+
+Para poder ejecutar este proyecto en tu máquina local, sigue los siguientes pasos:
+
+1. Clona el repositorio:
+   ```bash
+   git clone https://github.com/JJRodriguezz/kTRayectorias.git
