@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>932</width>
-    <height>798</height>
+    <width>1307</width>
+    <height>745</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -17,14 +17,14 @@
    <widget class="QTableWidget" name="tableWidget">
     <property name="geometry">
      <rect>
-      <x>220</x>
+      <x>30</x>
       <y>50</y>
-      <width>421</width>
-      <height>151</height>
+      <width>521</width>
+      <height>181</height>
      </rect>
     </property>
     <property name="toolTip">
-     <string>Haga doble clic en el cabaezado de un vértice para generar una matriz de pesos</string>
+     <string>Haga doble clic en el cabezado de un vértice para generar una matriz de pesos</string>
     </property>
     <property name="rowCount">
      <number>4</number>
@@ -44,8 +44,8 @@
    <widget class="QPushButton" name="btnPintarGrafo">
     <property name="geometry">
      <rect>
-      <x>390</x>
-      <y>210</y>
+      <x>220</x>
+      <y>240</y>
       <width>101</width>
       <height>31</height>
      </rect>
@@ -57,54 +57,58 @@
    <widget class="QGraphicsView" name="graphicsView">
     <property name="geometry">
      <rect>
-      <x>70</x>
-      <y>260</y>
-      <width>751</width>
-      <height>491</height>
+      <x>20</x>
+      <y>280</y>
+      <width>541</width>
+      <height>411</height>
      </rect>
     </property>
    </widget>
    <widget class="QLabel" name="lblTtitulo">
     <property name="geometry">
      <rect>
-      <x>290</x>
+      <x>560</x>
       <y>10</y>
-      <width>301</width>
+      <width>201</width>
       <height>31</height>
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">font: 75 14pt &quot;MS Shell Dlg 2&quot;;
-color:rgb(0, 85, 255);</string>
+     <string notr="true">color:rgb(135, 0, 202);
+font: 700 italic 9pt &quot;Times New Roman&quot;;
+font: 75 14pt &quot;MS Shell Dlg 2&quot;;
+</string>
     </property>
     <property name="text">
-     <string>Grafos por Alexander Narváez</string>
+     <string>Grafos por Isa y JJ</string>
     </property>
    </widget>
    <widget class="QLabel" name="lblTtitulo_3">
     <property name="geometry">
      <rect>
-      <x>40</x>
-      <y>90</y>
+      <x>200</x>
+      <y>0</y>
       <width>161</width>
-      <height>31</height>
+      <height>51</height>
      </rect>
     </property>
     <property name="styleSheet">
      <string notr="true">font: 75 14pt &quot;MS Shell Dlg 2&quot;;
-color:rgb(0, 85, 255);</string>
+border-color: qradialgradient(spread:repeat, cx:0.5, cy:0.5, radius:0.077, fx:0.5, fy:0.5, stop:0 rgba(0, 169, 255, 147), stop:0.497326 rgba(0, 0, 0, 147), stop:1 rgba(0, 169, 255, 147));
+
+color:rgb(85, 0, 255)</string>
     </property>
     <property name="text">
-     <string>Matriz de Pesos&gt;&gt;</string>
+     <string>Matriz de Pesos</string>
     </property>
    </widget>
    <widget class="QLabel" name="lblTtitulo2">
     <property name="geometry">
      <rect>
-      <x>80</x>
-      <y>270</y>
-      <width>181</width>
-      <height>71</height>
+      <x>10</x>
+      <y>280</y>
+      <width>171</width>
+      <height>61</height>
      </rect>
     </property>
     <property name="styleSheet">
@@ -118,14 +122,179 @@ color:rgb(0, 85, 255);</string>
      <pixmap>logo_eafit_blanco.png</pixmap>
     </property>
    </widget>
+   <widget class="QPushButton" name="btnCalcularTrayectoriasK2">
+    <property name="geometry">
+     <rect>
+      <x>570</x>
+      <y>360</y>
+      <width>201</width>
+      <height>29</height>
+     </rect>
+    </property>
+    <property name="toolTip">
+     <string>Haga click para calular las trayectorias cuando K=2</string>
+    </property>
+    <property name="text">
+     <string>Calcular Trayectorias K=2</string>
+    </property>
+   </widget>
+   <widget class="QTableWidget" name="tableTrayectorias3">
+    <property name="geometry">
+     <rect>
+      <x>780</x>
+      <y>510</y>
+      <width>521</width>
+      <height>181</height>
+     </rect>
+    </property>
+    <property name="toolTip">
+     <string/>
+    </property>
+    <property name="rowCount">
+     <number>4</number>
+    </property>
+    <property name="columnCount">
+     <number>4</number>
+    </property>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <column/>
+    <column/>
+    <column/>
+    <column/>
+   </widget>
+   <widget class="QPushButton" name="btnCalcularTrayectoriasK3">
+    <property name="geometry">
+     <rect>
+      <x>570</x>
+      <y>590</y>
+      <width>201</width>
+      <height>29</height>
+     </rect>
+    </property>
+    <property name="toolTip">
+     <string>Haga click para calcular las trayectorias cuando K=3</string>
+    </property>
+    <property name="text">
+     <string>Calcular Trayectorias K=3</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="lblTtitulo_2">
+    <property name="geometry">
+     <rect>
+      <x>910</x>
+      <y>10</y>
+      <width>301</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color:rgb(170, 85, 255);
+font: 75 14pt &quot;MS Shell Dlg 2&quot;;
+</string>
+    </property>
+    <property name="text">
+     <string>Matriz de Adyacencia</string>
+    </property>
+   </widget>
+   <widget class="QTableWidget" name="tableAdyacencia">
+    <property name="geometry">
+     <rect>
+      <x>770</x>
+      <y>40</y>
+      <width>521</width>
+      <height>181</height>
+     </rect>
+    </property>
+    <property name="toolTip">
+     <string/>
+    </property>
+    <property name="rowCount">
+     <number>4</number>
+    </property>
+    <property name="columnCount">
+     <number>4</number>
+    </property>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <column/>
+    <column/>
+    <column/>
+    <column/>
+   </widget>
+   <widget class="QTableWidget" name="tableTrayectorias2">
+    <property name="geometry">
+     <rect>
+      <x>780</x>
+      <y>280</y>
+      <width>521</width>
+      <height>181</height>
+     </rect>
+    </property>
+    <property name="toolTip">
+     <string/>
+    </property>
+    <property name="rowCount">
+     <number>4</number>
+    </property>
+    <property name="columnCount">
+     <number>4</number>
+    </property>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <column/>
+    <column/>
+    <column/>
+    <column/>
+   </widget>
+   <widget class="QLabel" name="lblTtitulo_4">
+    <property name="geometry">
+     <rect>
+      <x>910</x>
+      <y>240</y>
+      <width>301</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 75 14pt &quot;MS Shell Dlg 2&quot;;
+color:rgb(170, 170, 255)</string>
+    </property>
+    <property name="text">
+     <string>Matriz de trayectorias K2</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="lblTtitulo_5">
+    <property name="geometry">
+     <rect>
+      <x>910</x>
+      <y>470</y>
+      <width>301</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 75 14pt &quot;MS Shell Dlg 2&quot;;
+color:rgb(170, 170, 255)</string>
+    </property>
+    <property name="text">
+     <string>Matriz de trayectorias K3</string>
+    </property>
+   </widget>
   </widget>
   <widget class="QMenuBar" name="menubar">
    <property name="geometry">
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>932</width>
-     <height>21</height>
+     <width>1307</width>
+     <height>25</height>
     </rect>
    </property>
   </widget>
